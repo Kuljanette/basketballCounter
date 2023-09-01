@@ -112,5 +112,46 @@ h1{
         background-position: center;
         background-size: cover;
     }
+    #count-el, #count-bl{
+    position: relative;
+    left: 50%;
+    justify-self: center;
+    display: flex;
+    margin: 17px;
+    padding: 10px;
+    font-size: 9px;
+    margin-bottom: 4px;
+    line-height: 4px;
+    place-items: center;
+}
+
+.ma{
+   margin-top: 8.5px;
+    
+}
+
+#save-el, #save-bl{
+    position: relative;
+    left: 50%;
+    font-size: 7px;
+
+
+    .operate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.operate > button{
+    height: 15px;
+    width: 23px;
+    font-size: 8px;
+    margin: 2px;
+    background-color: blue;
+    color: #ffffff;
+    border: 0.7px solid rgb(219, 219, 219);
+    border-radius: 1.5px;
+    }
 }
      
